@@ -9,7 +9,25 @@
       margin: 0;
       padding: 0;
     }
-
+      body:after {
+        position: absolute;
+        width: 0;
+        height: 0;
+        overflow: hidden;
+        z-index: -1;
+        content: url(../img/emmylong1-bw);
+    }
+    .image {
+      width: 300px;
+      height: 500px;
+      background-image: url(../img/emmylong1);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+    } 
+    .image:hover {
+      background-image: url(../img/emmylong1);
+    }
     /* Header styles */
     header {
       background-color: #333;
